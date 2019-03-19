@@ -1,0 +1,24 @@
+
+mat-card.flexboxview {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  mat-card-content {
+    display:flex;
+    width: 45%;
+    border: 2px dashed lightskyblue;
+    min-width: 300px;
+
+    &.align-right {
+      justify-content: flex-end;
+    }
+    &.align-bottom {
+      align-items: flex-end;
+    }
+
+  }
+
+}
+
+
